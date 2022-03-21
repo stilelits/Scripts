@@ -1,3 +1,12 @@
+/********
+This is a script that parses through downloaded files in a subfolder,
+and detects what type of video game they contain, moving detected game
+types to a different subfolder for the emulator to run.
+It is a work in progress: Games that are present as disc images need to
+be mounted as virtual drives, so that their internal files can be
+examined, and I haven't implemented that logic yet.
+*********/
+
 //constants used by script logic
 var FOLDER_DELIM = '\\';
 var ZIP_EXECUTABLE_PATH = '"C:\\Users\\stile\\OneDrive\\Documents\\!Apps\\7-ZipPortable\\App\\7-Zip\\7z.exe"'; //change this to wherever you keep your 7zip
