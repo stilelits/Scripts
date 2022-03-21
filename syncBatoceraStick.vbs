@@ -1,3 +1,11 @@
+'This is a script that synchronizes files between a local folder and 
+'a USB stick containing Batocera (a Linux build that runs old video
+'games). It loops recursively through specific subfolders in both locations,
+'and copies the most recent version of any matching files so that both
+'locations have the latest file. This allows me to always keep a 
+'backup of all my old game files, as well as configuration files,
+'save files, game media, etc
+
 option explicit
 
 'SCRIPT BEHAVIOR CONSTANTS
